@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81AC52E1171D341500A85F5D /* SvSaveToUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AC52E0171D341500A85F5D /* SvSaveToUtils.m */; };
+		81C47A79171BD9CE00475393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C47A78171BD9CE00475393 /* UIKit.framework */; };
+		81C47A7B171BD9CE00475393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C47A7A171BD9CE00475393 /* Foundation.framework */; };
+		81C47A7D171BD9CE00475393 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C47A7C171BD9CE00475393 /* CoreGraphics.framework */; };
+		81C47A83171BD9CE00475393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81C47A81171BD9CE00475393 /* InfoPlist.strings */; };
+		81C47A85171BD9CE00475393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C47A84171BD9CE00475393 /* main.m */; };
+		81C47A89171BD9CE00475393 /* SvSaveToCameraRollAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C47A88171BD9CE00475393 /* SvSaveToCameraRollAppDelegate.m */; };
+		81C47A8B171BD9CE00475393 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C47A8A171BD9CE00475393 /* Default.png */; };
+		81C47A8D171BD9CE00475393 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C47A8C171BD9CE00475393 /* Default@2x.png */; };
+		81C47A8F171BD9CE00475393 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C47A8E171BD9CE00475393 /* Default-568h@2x.png */; };
+		81C47A92171BD9CE00475393 /* SvSaveToCameraRollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C47A91171BD9CE00475393 /* SvSaveToCameraRollViewController.m */; };
+		81C47A95171BD9CE00475393 /* SvSaveToCameraRollViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C47A93171BD9CE00475393 /* SvSaveToCameraRollViewController_iPhone.xib */; };
+		81C47A98171BD9CE00475393 /* SvSaveToCameraRollViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C47A96171BD9CE00475393 /* SvSaveToCameraRollViewController_iPad.xib */; };
+		81C47AA5171BDA4D00475393 /* 宽宽宽宽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81C47AA0171BDA4D00475393 /* 宽宽宽宽.jpg */; };
+		81C47AA6171BDA4D00475393 /* 超小.gif in Resources */ = {isa = PBXBuildFile; fileRef = 81C47AA1171BDA4D00475393 /* 超小.gif */; };
+		81C47AA7171BDA4D00475393 /* 长Gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 81C47AA2171BDA4D00475393 /* 长Gif.gif */; };
+		81C47AA8171BDA4D00475393 /* 高高高高.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81C47AA3171BDA4D00475393 /* 高高高高.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81AC52DF171D341500A85F5D /* SvSaveToUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SvSaveToUtils.h; path = SvSaveToUtils/SvSaveToUtils.h; sourceTree = SOURCE_ROOT; };
+		81AC52E0171D341500A85F5D /* SvSaveToUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SvSaveToUtils.m; path = SvSaveToUtils/SvSaveToUtils.m; sourceTree = SOURCE_ROOT; };
+		81C47A75171BD9CE00475393 /* SvSaveToCameraRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvSaveToCameraRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C47A78171BD9CE00475393 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81C47A7A171BD9CE00475393 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81C47A7C171BD9CE00475393 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81C47A80171BD9CE00475393 /* SvSaveToCameraRoll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SvSaveToCameraRoll-Info.plist"; sourceTree = "<group>"; };
+		81C47A82171BD9CE00475393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81C47A84171BD9CE00475393 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81C47A86171BD9CE00475393 /* SvSaveToCameraRoll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SvSaveToCameraRoll-Prefix.pch"; sourceTree = "<group>"; };
+		81C47A87171BD9CE00475393 /* SvSaveToCameraRollAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SvSaveToCameraRollAppDelegate.h; sourceTree = "<group>"; };
+		81C47A88171BD9CE00475393 /* SvSaveToCameraRollAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SvSaveToCameraRollAppDelegate.m; sourceTree = "<group>"; };
+		81C47A8A171BD9CE00475393 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		81C47A8C171BD9CE00475393 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		81C47A8E171BD9CE00475393 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		81C47A90171BD9CE00475393 /* SvSaveToCameraRollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SvSaveToCameraRollViewController.h; sourceTree = "<group>"; };
+		81C47A91171BD9CE00475393 /* SvSaveToCameraRollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SvSaveToCameraRollViewController.m; sourceTree = "<group>"; };
+		81C47A94171BD9CE00475393 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SvSaveToCameraRollViewController_iPhone.xib; sourceTree = "<group>"; };
+		81C47A97171BD9CE00475393 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SvSaveToCameraRollViewController_iPad.xib; sourceTree = "<group>"; };
+		81C47AA0171BDA4D00475393 /* 宽宽宽宽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宽宽宽宽.jpg"; sourceTree = "<group>"; };
+		81C47AA1171BDA4D00475393 /* 超小.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "超小.gif"; sourceTree = "<group>"; };
+		81C47AA2171BDA4D00475393 /* 长Gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "长Gif.gif"; sourceTree = "<group>"; };
+		81C47AA3171BDA4D00475393 /* 高高高高.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "高高高高.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C47A72171BD9CE00475393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C47A79171BD9CE00475393 /* UIKit.framework in Frameworks */,
+				81C47A7B171BD9CE00475393 /* Foundation.framework in Frameworks */,
+				81C47A7D171BD9CE00475393 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81C47A6C171BD9CE00475393 = {
+			isa = PBXGroup;
+			children = (
+				81C47A7E171BD9CE00475393 /* SvSaveToCameraRoll */,
+				81C47A77171BD9CE00475393 /* Frameworks */,
+				81C47A76171BD9CE00475393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81C47A76171BD9CE00475393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C47A75171BD9CE00475393 /* SvSaveToCameraRoll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C47A77171BD9CE00475393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81C47A78171BD9CE00475393 /* UIKit.framework */,
+				81C47A7A171BD9CE00475393 /* Foundation.framework */,
+				81C47A7C171BD9CE00475393 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81C47A7E171BD9CE00475393 /* SvSaveToCameraRoll */ = {
+			isa = PBXGroup;
+			children = (
+				81C47A87171BD9CE00475393 /* SvSaveToCameraRollAppDelegate.h */,
+				81C47A88171BD9CE00475393 /* SvSaveToCameraRollAppDelegate.m */,
+				81C47A90171BD9CE00475393 /* SvSaveToCameraRollViewController.h */,
+				81C47A91171BD9CE00475393 /* SvSaveToCameraRollViewController.m */,
+				81C47A93171BD9CE00475393 /* SvSaveToCameraRollViewController_iPhone.xib */,
+				81C47A96171BD9CE00475393 /* SvSaveToCameraRollViewController_iPad.xib */,
+				81AC52DF171D341500A85F5D /* SvSaveToUtils.h */,
+				81AC52E0171D341500A85F5D /* SvSaveToUtils.m */,
+				81C47A7F171BD9CE00475393 /* Supporting Files */,
+			);
+			path = SvSaveToCameraRoll;
+			sourceTree = "<group>";
+		};
+		81C47A7F171BD9CE00475393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81C47A9E171BDA4D00475393 /* pic */,
+				81C47A80171BD9CE00475393 /* SvSaveToCameraRoll-Info.plist */,
+				81C47A81171BD9CE00475393 /* InfoPlist.strings */,
+				81C47A84171BD9CE00475393 /* main.m */,
+				81C47A86171BD9CE00475393 /* SvSaveToCameraRoll-Prefix.pch */,
+				81C47A8A171BD9CE00475393 /* Default.png */,
+				81C47A8C171BD9CE00475393 /* Default@2x.png */,
+				81C47A8E171BD9CE00475393 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81C47A9E171BDA4D00475393 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				81C47AA0171BDA4D00475393 /* 宽宽宽宽.jpg */,
+				81C47AA1171BDA4D00475393 /* 超小.gif */,
+				81C47AA2171BDA4D00475393 /* 长Gif.gif */,
+				81C47AA3171BDA4D00475393 /* 高高高高.jpg */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C47A74171BD9CE00475393 /* SvSaveToCameraRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C47A9B171BD9CE00475393 /* Build configuration list for PBXNativeTarget "SvSaveToCameraRoll" */;
+			buildPhases = (
+				81C47A71171BD9CE00475393 /* Sources */,
+				81C47A72171BD9CE00475393 /* Frameworks */,
+				81C47A73171BD9CE00475393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SvSaveToCameraRoll;
+			productName = SvSaveToCameraRoll;
+			productReference = 81C47A75171BD9CE00475393 /* SvSaveToCameraRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C47A6D171BD9CE00475393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SvSaveToCameraRoll;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = mapleCao;
+			};
+			buildConfigurationList = 81C47A70171BD9CE00475393 /* Build configuration list for PBXProject "SvSaveToCameraRoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81C47A6C171BD9CE00475393;
+			productRefGroup = 81C47A76171BD9CE00475393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C47A74171BD9CE00475393 /* SvSaveToCameraRoll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C47A73171BD9CE00475393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C47A83171BD9CE00475393 /* InfoPlist.strings in Resources */,
+				81C47A8B171BD9CE00475393 /* Default.png in Resources */,
+				81C47A8D171BD9CE00475393 /* Default@2x.png in Resources */,
+				81C47A8F171BD9CE00475393 /* Default-568h@2x.png in Resources */,
+				81C47A95171BD9CE00475393 /* SvSaveToCameraRollViewController_iPhone.xib in Resources */,
+				81C47A98171BD9CE00475393 /* SvSaveToCameraRollViewController_iPad.xib in Resources */,
+				81C47AA5171BDA4D00475393 /* 宽宽宽宽.jpg in Resources */,
+				81C47AA6171BDA4D00475393 /* 超小.gif in Resources */,
+				81C47AA7171BDA4D00475393 /* 长Gif.gif in Resources */,
+				81C47AA8171BDA4D00475393 /* 高高高高.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C47A71171BD9CE00475393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C47A85171BD9CE00475393 /* main.m in Sources */,
+				81C47A89171BD9CE00475393 /* SvSaveToCameraRollAppDelegate.m in Sources */,
+				81C47A92171BD9CE00475393 /* SvSaveToCameraRollViewController.m in Sources */,
+				81AC52E1171D341500A85F5D /* SvSaveToUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81C47A81171BD9CE00475393 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C47A82171BD9CE00475393 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81C47A93171BD9CE00475393 /* SvSaveToCameraRollViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C47A94171BD9CE00475393 /* en */,
+			);
+			name = SvSaveToCameraRollViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		81C47A96171BD9CE00475393 /* SvSaveToCameraRollViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C47A97171BD9CE00475393 /* en */,
+			);
+			name = SvSaveToCameraRollViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81C47A99171BD9CE00475393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81C47A9A171BD9CE00475393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C47A9C171BD9CE00475393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvSaveToCameraRoll/SvSaveToCameraRoll-Prefix.pch";
+				INFOPLIST_FILE = "SvSaveToCameraRoll/SvSaveToCameraRoll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81C47A9D171BD9CE00475393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvSaveToCameraRoll/SvSaveToCameraRoll-Prefix.pch";
+				INFOPLIST_FILE = "SvSaveToCameraRoll/SvSaveToCameraRoll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C47A70171BD9CE00475393 /* Build configuration list for PBXProject "SvSaveToCameraRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C47A99171BD9CE00475393 /* Debug */,
+				81C47A9A171BD9CE00475393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C47A9B171BD9CE00475393 /* Build configuration list for PBXNativeTarget "SvSaveToCameraRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C47A9C171BD9CE00475393 /* Debug */,
+				81C47A9D171BD9CE00475393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81C47A6D171BD9CE00475393 /* Project object */;
+}
