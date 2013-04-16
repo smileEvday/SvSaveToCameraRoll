@@ -37,11 +37,18 @@
     NSArray *jpgFiles = [[NSBundle mainBundle] pathsForResourcesOfType:@"jpg" inDirectory:nil];
     [picArray addObjectsFromArray:jpgFiles];
     
+    jpgFiles = [[NSBundle mainBundle] pathsForResourcesOfType:@"JPG" inDirectory:nil];
+    [picArray addObjectsFromArray:jpgFiles];
+    
     NSArray *pngArray = [[NSBundle mainBundle] pathsForResourcesOfType:@"png" inDirectory:nil];
+    [picArray addObjectsFromArray:pngArray];
+    
+    pngArray = [[NSBundle mainBundle] pathsForResourcesOfType:@"PNG" inDirectory:nil];
+    [picArray addObjectsFromArray:pngArray];
     
     // exclude launch image of this project
-    NSMutableArray *picExcludeDefault = [NSMutableArray arrayWithArray:pngArray];
-    for (NSString *path in pngArray) {
+    NSMutableArray *picExcludeDefault = [NSMutableArray arrayWithArray:picArray];
+    for (NSString *path in picArray) {
         NSArray *pathCom = [path pathComponents];
         if ([pathCom containsObject:@"Default-568h@2x.png"]
             || [pathCom containsObject:@"Default.png"]
@@ -49,13 +56,15 @@
             [picExcludeDefault removeObject:path];
         }
     }
-    pngArray = picExcludeDefault;
-    [picArray addObjectsFromArray:pngArray];
+    picArray = picExcludeDefault;
     
     // traverse the main bundle to find out all mov files
     NSMutableArray *videoArray = [NSMutableArray arrayWithCapacity:3];
     
     NSArray *movs = [[NSBundle mainBundle] pathsForResourcesOfType:@"mov" inDirectory:nil];
+    [videoArray addObjectsFromArray:movs];
+    
+    movs = [[NSBundle mainBundle] pathsForResourcesOfType:@"MOV" inDirectory:nil];
     [videoArray addObjectsFromArray:movs];
     
     _mediaItemCount = picArray.count + videoArray.count;
