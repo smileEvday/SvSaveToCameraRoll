@@ -21,8 +21,6 @@
 		81C47A95171BD9CE00475393 /* SvSaveToCameraRollViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C47A93171BD9CE00475393 /* SvSaveToCameraRollViewController_iPhone.xib */; };
 		81C47A98171BD9CE00475393 /* SvSaveToCameraRollViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C47A96171BD9CE00475393 /* SvSaveToCameraRollViewController_iPad.xib */; };
 		81C47AA5171BDA4D00475393 /* 宽宽宽宽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81C47AA0171BDA4D00475393 /* 宽宽宽宽.jpg */; };
-		81C47AA6171BDA4D00475393 /* 超小.gif in Resources */ = {isa = PBXBuildFile; fileRef = 81C47AA1171BDA4D00475393 /* 超小.gif */; };
-		81C47AA7171BDA4D00475393 /* 长Gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 81C47AA2171BDA4D00475393 /* 长Gif.gif */; };
 		81C47AA8171BDA4D00475393 /* 高高高高.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81C47AA3171BDA4D00475393 /* 高高高高.jpg */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +45,6 @@
 		81C47A94171BD9CE00475393 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SvSaveToCameraRollViewController_iPhone.xib; sourceTree = "<group>"; };
 		81C47A97171BD9CE00475393 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SvSaveToCameraRollViewController_iPad.xib; sourceTree = "<group>"; };
 		81C47AA0171BDA4D00475393 /* 宽宽宽宽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宽宽宽宽.jpg"; sourceTree = "<group>"; };
-		81C47AA1171BDA4D00475393 /* 超小.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "超小.gif"; sourceTree = "<group>"; };
-		81C47AA2171BDA4D00475393 /* 长Gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "长Gif.gif"; sourceTree = "<group>"; };
 		81C47AA3171BDA4D00475393 /* 高高高高.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "高高高高.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,8 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				81C47AA0171BDA4D00475393 /* 宽宽宽宽.jpg */,
-				81C47AA1171BDA4D00475393 /* 超小.gif */,
-				81C47AA2171BDA4D00475393 /* 长Gif.gif */,
 				81C47AA3171BDA4D00475393 /* 高高高高.jpg */,
 			);
 			path = pic;
@@ -194,8 +188,6 @@
 				81C47A95171BD9CE00475393 /* SvSaveToCameraRollViewController_iPhone.xib in Resources */,
 				81C47A98171BD9CE00475393 /* SvSaveToCameraRollViewController_iPad.xib in Resources */,
 				81C47AA5171BDA4D00475393 /* 宽宽宽宽.jpg in Resources */,
-				81C47AA6171BDA4D00475393 /* 超小.gif in Resources */,
-				81C47AA7171BDA4D00475393 /* 长Gif.gif in Resources */,
 				81C47AA8171BDA4D00475393 /* 高高高高.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
