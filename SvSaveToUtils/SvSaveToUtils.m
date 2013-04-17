@@ -121,7 +121,7 @@
         NSLog(@"%@", [error localizedDescription]);
     }
     
-    if (delegate && [delegate respondsToSelector:@selector(mediaItemCopied:isSuccess:)]) {
+    if (delegate && [delegate respondsToSelector:@selector(mediaItemCopiedIsSuccess:)]) {
         [delegate mediaItemCopiedIsSuccess:isSuccess];
     }
     
